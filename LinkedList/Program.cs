@@ -11,6 +11,20 @@ namespace LinkedList
             v = n;
             next = null;
         }
+
+        public bool Equals(Object obj)
+        {
+            return true;
+        }
+        public static bool operator == (Node<T> node1, Node<T> node2)
+        {
+            return node1.v.Equals(node2.v);
+        }
+        public static bool operator !=(Node<T> node1, Node<T> node2)
+        {
+            return !node1.v.Equals(node2.v);
+        }//시스템적으로 구현되어 있지 않은 변수나 값을 가지고 비교하려면 재정의 해야함.
+
     }
 
     class LinkedList<T>
@@ -59,7 +73,7 @@ namespace LinkedList
                 i++;
                 node = node.next;
             }
-            return default(T);//head가 null일경우
+            return default(T);//head가 null일경우 default
         }
 
         public void Set(int n, T v)
@@ -84,8 +98,8 @@ namespace LinkedList
             Node<T> prev = null;//이전값 선언
             while(node != null)
             {
-                if(node.v.Equals(v))//T의 타입이 정해져있지 않은 상황에서 
-                {
+                if(node.v.Equals(v))//T의 타입이 정해져있지 않은 상황이라서
+                {                    //node.v==v 연산이 가능한지 확신할 수 없기에 이렇게 한다.
                     if(prev == null)//예외사항1: head 가 지워지는 경우
                     {
                         head = node.next;
