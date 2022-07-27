@@ -11,7 +11,7 @@ namespace LinkedList
             v = n;
             next = null;
         }
-
+        /*
         public bool Equals(Object obj)
         {
             return true;
@@ -24,7 +24,7 @@ namespace LinkedList
         {
             return !node1.v.Equals(node2.v);
         }//시스템적으로 구현되어 있지 않은 변수나 값을 가지고 비교하려면 재정의 해야함.
-
+        */
     }
 
     class LinkedList<T>
