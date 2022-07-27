@@ -1,0 +1,7 @@
+D:\G-Class오전반\LinkedList\LinkedList\obj\Debug\LinkedList.csproj.AssemblyReference.cache
+D:\G-Class오전반\LinkedList\LinkedList\obj\Debug\LinkedList.csproj.CoreCompileInputs.cache
+D:\G-Class오전반\LinkedList\LinkedList\bin\Debug\LinkedList.exe.config
+D:\G-Class오전반\LinkedList\LinkedList\bin\Debug\LinkedList.exe
+D:\G-Class오전반\LinkedList\LinkedList\bin\Debug\LinkedList.pdb
+D:\G-Class오전반\LinkedList\LinkedList\obj\Debug\LinkedList.exe
+D:\G-Class오전반\LinkedList\LinkedList\obj\Debug\LinkedList.pdb
